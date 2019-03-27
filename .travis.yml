@@ -17,7 +17,7 @@ before_install:
   - rm arduino-$ARD_VER-linux64.tar.xz
   
 install:
-  - ln -s $PWD /abc
+  - ln -s $PWD /usr/local/share/aurdino/library/abc
   
 script:
   - arduino --verify --board ${BOARD} $PWD/abc.ino
