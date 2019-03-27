@@ -17,7 +17,7 @@ before_install:
   - rm arduino-$ARD_VER-linux64.tar.xz
   
 install:
-  - ln -s $PWD /usr/local/share/aurdino/libraries/abc
+  - ln -s $PWD /usr/local/share/arduino/libraries/HVAC
   
 script:
   - arduino --verify --board ${BOARD} $PWD/abc.ino
