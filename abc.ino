@@ -65,6 +65,7 @@ void loop()
   Serial.print(90-angle_w);
   Serial.print(" || Speed=");
   Serial.println(speed);
+  Serial.println("Hello");
  
     
 }
